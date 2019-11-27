@@ -2,7 +2,7 @@
 cat logo.txt
 printf "
 
-:                                                           \e[189m\e[1;99m@@@@@@  A FULL UNDETECTABLE PAYLOAD  @@@@@@@ \e[0m\n"
+                                                          \e[189m\e[1;99m@@@@@@  A FULL UNDETECTABLE PAYLOAD  @@@@@@@ \e[0m\n"
 printf "                                                         ++++++++ V1.0 Created by ...... Ignite +++++++++++"
 
 
